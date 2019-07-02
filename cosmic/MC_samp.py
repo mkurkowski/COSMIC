@@ -49,7 +49,7 @@ Tobs = 3.15569*10**7.0
 geo_mass = G/c**2
 
 # solar coordinates in the galaxy: in parsecs from
-# (Chaper 8 of Galactic Structure and stellar Pops book) Yoshii (2013)
+# (Chapter 8 of Galactic Structure and stellar Pops book) Yoshii (2013)
 ############################################################################
 x_sun = 8.0
 y_sun = 0.0

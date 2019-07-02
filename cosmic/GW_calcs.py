@@ -78,7 +78,7 @@ def sep_from_p(p,m1,m2):
     return sep_3**(1/3.)
 
 def p_from_a(sep,m1,m2):
-    """ Computes separation from orbital period with kepler III
+    """ Computes orbital period from separation with KEPLER III
 
     Parameters
     ----------

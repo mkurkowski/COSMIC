@@ -231,7 +231,7 @@ class Evolve(Table):
             except Exception as e:
                 raise
 
-        # evolve sysyems
+        # evolve systems
         output = mp_utils.multiprocess_with_queues(
             nproc, _evolve_single_system, initial_conditions, raise_exceptions=False)
 
