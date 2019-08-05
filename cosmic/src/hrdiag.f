@@ -697,7 +697,7 @@ C      if(mt0.gt.100.d0) mt = 100.d0
                      elseif(pisn.eq.-2)then
                         if(mcbagb.ge.27.69d0.and.mcbagb.le.54.48d0)then
                            poly = -430343.4d0 + (90279.6d0*mcbagb) -
-     &                            (8225.8d0*mcbagb**2) +
+     &                            (8224.8d0*mcbagb**2) +
      &                            (425.05d0*mcbagb**3) -
      &                            (13.629d0*mcbagb**4) +
      &                            (2.7768d-1*mcbagb**5) -
@@ -1010,7 +1010,7 @@ C      if(mt0.gt.100.d0) mt = 100.d0
                      elseif(pisn.eq.-2)then
                         if(mc.ge.27.69d0.and.mc.le.54.48d0)then
                            poly = -430343.4d0 + (90279.6d0*mc) -
-     &                            (8225.8d0*mc**2) +
+     &                            (8224.8d0*mc**2) +
      &                            (425.05d0*mc**3) -
      &                            (13.629d0*mc**4) +
      &                            (2.7768d-1*mc**5) -
